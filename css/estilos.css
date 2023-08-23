@@ -17,24 +17,36 @@ h3 {
   .titulo img {
     width: 110px;
     height: 110px;
-    margin: 10px; }
-
-header nav div {
-  margin: 10px;
-  padding: 5px;
-  border: 1px solid white;
-  background-color: #014116; }
-  header nav div img {
-    width: 40px;
-    height: 40px; }
-  header nav div .img1 {
+    margin: 10px;
+    transition-duration: 1s; }
+  .titulo img:hover {
     width: 150px;
     height: 150px; }
-  header nav div li div:hover {
-    background-color: #012e10; }
-  header nav div li div a {
-    text-decoration: none;
-    color: white; }
+
+header nav {
+  background: #014116;
+  background: linear-gradient(90deg, #014116 60%, #cef7d8 100%); }
+  header nav div {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid white;
+    background: #014116;
+    background: linear-gradient(90deg, #014116 60%, #cef7d8 100%);
+    transition-duration: 1s; }
+    header nav div #navbarScroll {
+      background: #014116; }
+    header nav div img {
+      width: 40px;
+      height: 40px; }
+    header nav div .img1 {
+      width: 150px;
+      height: 150px; }
+    header nav div li div a {
+      text-decoration: none;
+      color: white; }
+    header nav div li div:hover {
+      background: #014116;
+      background: linear-gradient(90deg, #014116 0%, #cef7d8 0%); }
 
 .catalogo {
   text-align: center;
@@ -44,9 +56,10 @@ header nav div {
     text-align: center;
     text-decoration: none;
     color: black;
-    border: 2px solid black; }
+    border: 2px solid black;
+    transition-duration: 1s; }
   .catalogo a:hover {
-    background-color: #2b2a2a; }
+    background-color: #7e7c7c; }
 
 .productos div {
   width: 225px;
@@ -55,7 +68,8 @@ header nav div {
   background-color: #cef7d8;
   text-align: center;
   margin: 30px;
-  display: inline-block; }
+  display: inline-block;
+  transition-duration: 1s; }
   .productos div .boton {
     text-decoration: none;
     padding: 5px;
@@ -63,7 +77,9 @@ header nav div {
     color: white; }
 
 .productos div:hover {
-  background-color: white; }
+  background-color: white;
+  width: 250px;
+  height: 400px; }
 
 main section .texto {
   border: 5px solid black;
@@ -71,7 +87,12 @@ main section .texto {
 
 main section img {
   width: 223px;
-  height: 223px; }
+  height: 223px;
+  transition-duration: 1s; }
+
+main section img:hover {
+  width: 246px;
+  height: 246px; }
 
 main section div label {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
