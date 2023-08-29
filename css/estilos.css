@@ -14,6 +14,9 @@ p {
   font-size: 40px;
   text-align: center; }
 
+h4 {
+  text-align: center; }
+
 .titulo {
   background-color: #cef7d8;
   border: 3px solid black;
@@ -41,6 +44,7 @@ header nav {
     width: 150px;
     height: 150px; }
   header nav div li {
+    list-style: none;
     padding: 15px; }
     header nav div li a {
       margin: 10px;
